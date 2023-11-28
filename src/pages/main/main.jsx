@@ -1,21 +1,29 @@
+import React from "react";
 
 import {Header} from "../../components/header/header"
 import MainFirstScreen from "./scr1/screen1";
 import MainSecondScreen from "./scr2/screen2";
 import MainThirdScreen from "./scr3/screen3";
-import MainFooter from "../../components/footer/footer";
+import Footer from "../../components/footer/footer";
+import { Context } from '../..';
+
+
 
 
 function Main () {
+    const store = React.useContext(Context)
 
-return(    
-<>
-<Header/>
-<MainFirstScreen/>
-<MainSecondScreen/>
-<MainThirdScreen/>
-<MainFooter/>
-</>
-)}
+    return(    
+        <>
+            <Header/>
+
+            <MainFirstScreen/>
+            <MainSecondScreen/>
+            <MainThirdScreen/>
+
+            <Footer/>
+        </>
+    )
+}
 
 export default Main; 

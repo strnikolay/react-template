@@ -1,13 +1,9 @@
 import {createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css';
 
-//import About from "./pages/about/about";
+//import Page2 from "./pages/page2/page2";
 import Main  from './pages/main/main';
 //import ErrorPage from "./pages/404/404";
-
-
-
-
 
 
 function App() {
@@ -19,8 +15,8 @@ function App() {
       //errorElement: <ErrorPage />,
     },
     /*{
-      path: "/about",
-      element: <About />,
+      path: "/page2",
+      element: <Page2 />,
     },*/
   ]);
 

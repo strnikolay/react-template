@@ -4,8 +4,6 @@
 }
 
 /*#root{
-  width: 1920px;
-  margin: 0 auto;
   --main-width: 100vw
 }*/
 
@@ -23,6 +21,11 @@
   background: repeating-linear-gradient(90deg, #00f 0, #00f 8.5326086957%, transparent 8.5326086957%, transparent 10.1630434783%);
   pointer-events: none;
 }*/
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 * {
   box-sizing: border-box;
@@ -47,7 +50,4 @@ a, h1, h2, h3, div, p, span {
   font-family: Benzin-Medium, 'Source Sans Pro';
 }
 
-/*h1 {
-  font-size: calc(24px + 16 * (100vw / 1280));
-}*/
 
