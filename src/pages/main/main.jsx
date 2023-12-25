@@ -5,7 +5,7 @@ import MainFirstScreen from "./scr1/screen1";
 import MainSecondScreen from "./scr2/screen2";
 import MainThirdScreen from "./scr3/screen3";
 import Footer from "../../components/footer/footer";
-import { Context } from '../..';
+import { Context } from '../../store/store';
 
 
 

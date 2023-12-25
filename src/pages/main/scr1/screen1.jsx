@@ -1,4 +1,5 @@
 import "./screen1.css"
+import { Context } from '../../../store/store';
 
 
 function MainFirstScreen () {
