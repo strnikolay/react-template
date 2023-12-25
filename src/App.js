@@ -7,6 +7,18 @@ import Main  from './pages/main/main';
 
 
 function App() {
+  const html = document.documentElement;
+  const resizeHanlder = () => {
+      const winwidth = window.innerWidth;
+      html.style.fontSize = (winwidth/100)+'px';
+  };
+
+  React.useEffect(() => {
+    resizeHanlder();
+    window.addEventListener('resize', resizeHanlder);
+      return () => 
+    window.removeEventListener('resize', resizeHanlder);
+  }, []);
 
   const router = createBrowserRouter([
     {

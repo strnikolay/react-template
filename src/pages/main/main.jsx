@@ -12,15 +12,18 @@ import { Context } from '../..';
 
 function Main () {
     const store = React.useContext(Context)
+    const [state, setState] = React.useState()
+
+    React.useEffect(() =>{
+
+    }, [])
 
     return(    
         <>
             <Header/>
-
             <MainFirstScreen/>
             <MainSecondScreen/>
             <MainThirdScreen/>
-
             <Footer/>
         </>
     )
