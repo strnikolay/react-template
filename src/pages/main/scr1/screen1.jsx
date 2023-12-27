@@ -1,10 +1,11 @@
+import React from "react";
 import "./screen1.css"
-import { Context } from '../../../store/store';
+import { Context } from 'index';
 
 
 function MainFirstScreen () {
-  const store = React.useContext(Context)
-  const [state, setState] = React.useState()
+  //const store = React.useContext(Context)
+  //const [state, setState] = React.useState()
 
 
   return(
