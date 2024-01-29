@@ -3,11 +3,9 @@ import "./screen3.css"
 function MainThirdScreen () {
 
 return(
-  
-  <div className="screen3">
+  <section className="screen3">
     
-  </div>
-
+  </section>
 )}
 
 export default MainThirdScreen;   

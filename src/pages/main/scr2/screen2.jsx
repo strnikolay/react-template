@@ -4,9 +4,9 @@ import "./screen2.css"
 function MainSecondScreen () {
 
 return(
-<div className="screen2">
+<section className="screen2">
 
-</div>
+</section>
 )}
 export default MainSecondScreen;
 

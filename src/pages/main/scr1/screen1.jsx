@@ -9,11 +9,11 @@ function MainFirstScreen () {
 
 
   return(
-  <div className="screen-1">
+  <section className="screen-1">
     <div className="screen-1-wraper">
     
     </div>
-  </div>
+  </section>
 )}
 
 export default MainFirstScreen;
